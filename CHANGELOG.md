@@ -1,3 +1,8 @@
+## [4.0.0+tom.1]
+Fork of xterm 4.0.0 (al-the-bear/tom_xterm, branch `tom/4.0.0-no-equatable`):
+* Remove the unused `equatable` dependency: nothing imports it, and its
+  `^2.0.3` kept apps off equatable 3.
+
 ## [4.0.0] - 2024-02-27
 * Update for Flutter 3.19 [#190]. Thanks [@domesticmouse].
 * Fix designate charset logic [#186]. Thanks [@djnalluri].
